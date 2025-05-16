@@ -1,5 +1,5 @@
 # Credit Risk Dashboard
-Code your way to victory in this high-stakes twist on classic word games. In Assembly Endgame, your mission is to decode the hidden word letter by letter—but choose wisely. Each incorrect guess doesn't just cost you a turn; it erases an entire programming language from existence. How many languages will survive your journey to solve the puzzle? Test your lexical skills and save the foundations of coding before they vanish into the digital void.
+[insert description here later John]
 
 ## ✨ Features
 
