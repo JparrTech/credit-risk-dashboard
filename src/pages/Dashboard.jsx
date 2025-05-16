@@ -1,5 +1,21 @@
+import CreditScoreCard from "../dashboard-modules/CreditScoreCard"
+import DefaultProbabilityCard from "../dashboard-modules/DefaultProbabilityCard"
+import ExpectedLossCard from "../dashboard-modules/ExpectedLossCard"
 export default function Dashboard() {
     return (
-        <h1>This is the Dashboard!</h1>
+        <div className="dashboard-container"> 
+            <header className="dashboard-header">
+                <h1>Welcome Back!</h1>
+            </header>
+            <div className="dashboard-content">
+                <CreditScoreCard />
+                <DefaultProbabilityCard />
+                <ExpectedLossCard />
+            </div>
+        
+        
+        
+        
+        </div>
     )
 }
