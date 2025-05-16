@@ -10,12 +10,17 @@ export default function Sidebar() {
                 <ul>
                     <li>
                         <NavLink to="/">
-                        <img src="src/assets/dashboard.svg" alt="dashboard icon" />Dashboard
+                            <img src="src/assets/dashboard.svg" alt="dashboard icon" />Dashboard
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/loan-applications">
-                        <img src="src/assets/loanapplications.svg" alt="loan applications icon" />Loan Applications
+                        <NavLink to="/loan-application-search">
+                            <img src="src/assets/magnifyingGlass.svg" alt="loan applications search icon" />Search Loans
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/loan-application-search">
+                            <img src="src/assets/magnifyingGlass.svg" alt="loan applications search icon" />Search Loans
                         </NavLink>
                     </li>
                 </ul>

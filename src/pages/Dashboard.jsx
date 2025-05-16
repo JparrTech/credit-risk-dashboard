@@ -1,3 +1,4 @@
+import './Dashboard.css'
 import CreditScoreCard from "../dashboard-modules/CreditScoreCard"
 import DefaultProbabilityCard from "../dashboard-modules/DefaultProbabilityCard"
 import ExpectedLossCard from "../dashboard-modules/ExpectedLossCard"

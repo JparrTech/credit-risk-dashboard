@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom"
 import Sidebar from "./Sidebar"
 import Dashboard from "./pages/Dashboard"
-import LoanApplications from "./pages/LoanApplications"
+import LoanApplicationSearch from "./pages/LoanApplicationSearch"
 export default function App() {
 
   return (
@@ -14,7 +14,9 @@ export default function App() {
         {/* Right side view changes based on route selected */}
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/loan-applications" element={<LoanApplications />} />
+          <Route path="/loan-application-search" element={<LoanApplicationSearch/>} />
+          <Route path="/loan-application-entry" element={<LoanApplicationEntry/>} />
+
         </Routes>
       </div>
     </div>

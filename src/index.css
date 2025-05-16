@@ -81,73 +81,18 @@ body {
   display: flex;
   gap: 10px;
   align-items: center;
-  transition: background-color 0.2s ease;
   text-decoration: none;
 }
 
-/* ************************** Main Content  ************************** */
+/* ************************** Main Content (For All Panels) ************************** */
 .content-area {
   grid-column: 3/-1;
   grid-row: 1/-1;
-}
-
-/* ************************** Dashboard  ************************** */
-.dashboard-header {
-  /* Layout */
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 1057px;
-  height: 96px;
-  padding: 8px 21px;
-  gap: 10px;
-  flex-shrink: 0;
-
-  /* Style */
-  border-radius: 16px;
-  border: 1px solid #212E43;
-  background: #0D101C;
-
-  font-family: Inter;
-  font-size: 15px;
-  font-weight: 500;
 }
 
-.dashboard-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* Creates 3 equal columns */
-  gap: 20px;
-  margin-top: 20px;
-}
+/* ************************** Loan Entry Page  ************************** */
 
-/* ************************** Cards  ************************** */
-.credit-score-card {
-  /* layout */
-  display: flex;
-  width: 303px;
-  height: 336px;
-  padding: 3px 5px 291px 5px;
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
-  /* style */
-  border-radius: 16px;
-  border: 1px solid #222E41;
-  background: #0D101C;
-}
+.loan-entry-container{
 
-.default-probability-card {
-  /* layout */
-  display: flex;
-  width: 303px;
-  height: 336px;
-  padding: 3px 5px 291px 5px;
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
-  /* style */
-  border-radius: 16px;
-  border: 1px solid #222E41;
-  background: #0D101C;
 }

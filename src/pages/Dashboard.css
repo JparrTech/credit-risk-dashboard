@@ -1,0 +1,82 @@
+
+/* ************************** Dashboard  ************************** */
+.dashboard-container {
+  padding-left: 10px;
+  gap: 10px;
+  display: flex;
+  max-width: 1075px;
+  flex-direction: column;
+}
+.dashboard-content{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.dashboard-header {
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1057px;
+  height: 96px;
+  flex-shrink: 0;
+
+  /* Style */
+  border-radius: 16px;
+  background-color: #131925;
+
+
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+/* ************************** Dashboard Cards  ************************** */
+.credit-score-card {
+  /* layout */
+  display: flex;
+  width: 303px;
+  height: 336px;
+  padding: 3px 5px 291px 5px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  /* style */
+  border-radius: 16px;
+  background-color: #131925;
+
+
+}
+
+.default-probability-card {
+  /* layout */
+  display: flex;
+  width: 303px;
+  height: 336px;
+  padding: 3px 5px 291px 5px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  /* style */
+  border-radius: 16px;
+  background-color: #131925;
+
+}
+.expected-loss-card{
+  flex: 1;
+  display: flex;
+  min-width: 336px;
+  height: 336px;
+  padding: 3px 5px 291px 5px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  /* style */
+  border-radius: 16px;
+  background-color: #131925;
+
+
+}
