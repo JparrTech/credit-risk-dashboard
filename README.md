@@ -44,8 +44,4 @@ Code your way to victory in this high-stakes twist on classic word games. In Ass
 http://localhost:5173/
 
 ## What I learned:
-Assembly Endgame represents the culmination of my journey through the Scrimba React course on Coursera. Unlike guided assignments, this capstone challenged me to independently transform a comprehensive Figma design into a fully functional web application.
-
-Beyond mastering CSS styling techniques, this project deepened my understanding of React's core architecture. I developed crucial skills in implementing complex game logic through React's ecosystem of states, components, props, and event handlers. The process of methodically breaking down a sophisticated design into modular, interactive components proved to be an invaluable learning experience.
-
-This capstone served as the perfect bridge between structured learning and independent development, reinforcing my confidence in tackling React-based challenges. The skills acquired during this project have established a solid foundation that I'm eager to leverage in my future development work.
+This credit risk dashboard tested my established front end skills
